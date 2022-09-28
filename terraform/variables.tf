@@ -1,18 +1,18 @@
 
 
 variable "ami" {
-    default = "ami-0885b1f6bd170450c"
+    default = "ami-0149b2da6ceec4bb0"
   
 }
 
 variable "instance_type" {
-    default = "t2.micro"
+    default = "t3.medium"
   
 }
 
 
 variable "security" {
-    default = "sg_olimpo"
+    default = "sg_minikube"
   
 }
 

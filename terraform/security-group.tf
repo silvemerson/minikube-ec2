@@ -1,4 +1,4 @@
-resource "aws_security_group" "busybox" {
+resource "aws_security_group" "sg_minikube" {
   name        = var.security
   description = "Regras para liberar portas"
 
@@ -26,7 +26,7 @@ ingress {
 
 
   tags = {
-    "Name" = "sg_kubernetes"
+    "Name" = "sg_minikube"
     "Provider" = "terraform"
   }
   
