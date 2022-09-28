@@ -20,3 +20,15 @@ variable "ec2name" {
     default = "minikube"
   
 }
+
+variable "ec2name" {
+    default = "minikube"
+  
+}
+
+variable "aws_key" {
+    default = "aws-terraform"
+  
+}
+
+
