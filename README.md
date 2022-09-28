@@ -5,6 +5,9 @@
 	- aws-cli
     - Terraform
     - Ansible
+    - python
+    - boto3
+    - requests
 
 - Clone the repo and give the run.sh file permission with chmod +x
 
@@ -20,8 +23,8 @@ Option menu to be chosen:
           [ 1 ] Create EC2 on AWS
           [ 2 ] Delete EC2
           [ 3 ] Install Minikube by Ansible
-          [ 4 ] Start EC2 - In development
-          [ 5 ] Stop EC2 - In development
+          [ 4 ] Start EC2 
+          [ 5 ] Stop EC2 
           [ 6 ] Exit 
 
 
