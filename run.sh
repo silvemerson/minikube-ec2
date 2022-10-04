@@ -7,7 +7,7 @@
 #LICENSE:           GPLv3
 
 echo "Welcome to IaC Adventure"
-
+git a
 while : ; do
 
 echo "[ 1 ] Create EC2 on AWS"
@@ -49,7 +49,7 @@ cd terraform/ ; terraform destroy -auto-approve
   3) Install_MINIKUBE
 echo "INSTALLING AND CONFIGURING MINIKUBE"
 echo ""
-ansible-playbook -i terraform/inventory ansible/minikube.yaml 
+ansible-playbook -i $PWD/terraform/inventory $PWD/ansible/minikube.yaml
 
 ;;
 
